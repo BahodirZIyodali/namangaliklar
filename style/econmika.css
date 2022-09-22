@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    
+  }
+  header {
+     
+  background: #F6F6F9;
+  }
+  .nav {
+    padding-top: 44px;
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+  
+  }
+  .nav-logo {
+  
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #295091;
+  }
+  .nav-ul{
+  display: flex;
+  
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+      list-style-type: none;
+  text-decoration: none;
+  color: #285193;
+  }
+  
+  .nav-li{
+    text-align: center;
+  }
+  .nav-ul-li-link{
+      text-decoration: none;
+      margin-right: 10px;
+       color: #7A7A7A;
+  }
+  .nav-add{
+    display: flex;
+    padding-left:250px;
+    justify-content:space-between;
+    text-align: center;
+    align-items: center;
+    
+  }
+  .search{
+    width: 38px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-right: 15px;
+     display: flex;
+  
+    text-align: center;
+    align-items: center;
+  }
+  .ru-flag{
+     width: 80px;
+     height: 50px;
+  
+    display:flex;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  .ru-flag>p{
+    
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #535353;
+  }
+  .nav-btn{
+    margin-left: 10px ;
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  border-radius: 5px;
+  border: none;
+  }
+  .nav-btn>p{
+    display: inline-block;
+    align-items: center;
+    font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #FFFFFF;
+  
+  }
+  i{
+    
+  }
+  .bxl-telegram{
+    background-color: #fff;
+    border-radius: 50%;
+    align-items: center;
+  }
+  .ul{
+  margin-top: 70px;
+  display: flex;
+  justify-content:space-around;
+  padding-left: 00px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+  list-style-type: none;
+  }
+  .ul-li>a{
+    color: #515151;
+  list-style-type: none;
+  text-decoration: none;
+  }
+  .ul-li{
+    position: relative;
+    left: 15px;
+    margin-right:  20px;
+  }
+  .head-img{
+    margin-top: 40px;
+    margin-bottom: 22px;
+  }
+  /* header end */
+
+      
+  /* footer */
+footer{
+    margin-top: 300px;
+    width: 100%;
+    height: 245px;
+    background: rgba(41, 80, 147, 1);
+    color: #FFFFFF;
+  }
+  .footer-card{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0px;
+  }
+  .footer-logo>h1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 11px 6px;
+    background: rgba(19, 60, 130, 1);
+  }
+  .footer-context{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-context>p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .footer-context>button{
+    border-radius: 4px;
+    padding: 9px 8px;
+    border: none;
+    background:#FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #286782;
+    margin-left: 40px;
+  }
+  .footer-context{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer-cotext>p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: -165px;
+  }
+  li{
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px;
+    padding-left: -60px;
+  }
+  .tiziq{
+    width: 100%;
+    height: 3px;
+    background-color: #1a315a;
+    margin: 20px 0px;
+  }
+
+
+  /* form elements */
+  .form{
+    position: relative;
+    width: 600px;
+    height: 600px;
+  }
+  label{
+
+    margin: 20px;;
+    display: block;
+  }
+  input{
+    width: 600px;
+    height: 50px;
+    background: #F1F1F1;
+opacity: 0.5;
+border: 2px solid #285193;
+border-radius: 5px;
+  }
+ .input-5{
+  text-align: center;
+ width: 600px;
+ height: 300px;
+ border: solid 1px; 
+ }
